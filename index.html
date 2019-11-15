@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/ico" href="images/icon.ico" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Landing</title>
+  </head>
+  <body>
+    <!-- 
+    #     # ####### #     # #     # 
+    ##   ## #       ##    # #     # 
+    # # # # #       # #   # #     # 
+    #  #  # #####   #  #  # #     # 
+    #     # #       #   # # #     # 
+    #     # #       #    ## #     # 
+    #     # ####### #     #  ##### 
+     -->
+    <div class="menu__background" onclick="closeMenu(event)">
+      <div class="menu__body">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contacts</li>
+        </ul>
+      </div>
+    </div>
+    <!-- 
+        #     #    #    #     # 
+        ##    #   # #   #     # 
+        # #   #  #   #  #     # 
+        #  #  # #     # #     # 
+        #   # # #######  #   #  
+        #    ## #     #   # #   
+        #     # #     #    #   
+    -->
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__wrapper">
+          <div class="nav__logo">Landie</div>
+          <ul class="nav__menu">
+            <li class="nav__menu-item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            <li class="nav__menu-item">
+              <a class="nav__link" href="#">About</a>
+            </li>
+            <li class="nav__menu-item">
+              <a class="nav__link" href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="button button--dark nav__button">
+            Buy Now
+          </button>
+          <button class="button nav__hamburger-menu" onclick="openMenu()">
+            <div class="nav__hamburger-menu-line"></div>
+            <div class="nav__hamburger-menu-line"></div>
+            <div class="nav__hamburger-menu-line"></div>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- 
+        #     # #######    #    ######  ####### ######  
+        #     # #         # #   #     # #       #     # 
+        #     # #        #   #  #     # #       #     # 
+        ####### #####   #     # #     # #####   ######  
+        #     # #       ####### #     # #       #   #   
+        #     # #       #     # #     # #       #    #  
+        #     # ####### #     # ######  ####### #     #
+     -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__main">
+            <h1 class="header__title">
+              Introduce Your Product Quickly & Effectively
+            </h1>
+            <p class="header__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus
+              <br />
+              <br />
+              mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+              quis, sem. Nulla consequat massa quis enim.
+            </p>
+            <div class="header__button-group">
+              <button class="button button--dark header__button">
+                Purchase UI Kit
+              </button>
+              <button
+                class="button button--white header__button header__button--right"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+          <img
+            class="header__image"
+            src="images/header__image.png"
+            alt="designer"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Start coding from here. Good luck! -->
+
+    <!-- ######  ####### #     # ####### ####### ### #######  #####  
+        #     # #       ##    # #       #        #     #    #     # 
+        #     # #       # #   # #       #        #     #    #       
+        ######  #####   #  #  # #####   #####    #     #     #####  
+        #     # #       #   # # #       #        #     #          # 
+        #     # #       #    ## #       #        #     #    #     # 
+        ######  ####### #     # ####### #       ###    #     #####  
+   -->
+
+    <section class="benefits">
+      <div class="container">
+        <div class="benefits__wrapper">
+          <div class="benefits__main">
+            <div class="title">
+              <h2 class="title benefits__title">Our Benefits</h2>
+              <p class="benefits__main-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                <br />
+                <br />
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                quis, sem. Nulla consequat massa quis enim.
+              </p>
+              <div class="benefits__item__group">
+                <div class="benefits__item-first">
+                  <img
+                    class="img__icon"
+                    src="images/icon1.png"
+                    alt="icon_first"
+                  />
+                  <h5 class="benefits__text-first">Title Goes Here</h5>
+                  <p class="benefits__text">
+                    Lorem ipsum dolor sit amet, consectetuer <br />
+                    adipiscing elit. Aenean commodo ligula eget <br />
+                    dolor.
+                  </p>
+                </div>
+                <div class="benefits__item-second">
+                  <img
+                    class="img__icon"
+                    src="images/icon1.png"
+                    alt="icon_first"
+                  />
+                  <h5 class="benefits__text-first">Title Goes Here</h5>
+                  <p class="benefits__text">
+                    Lorem ipsum dolor sit amet, consectetuer <br />
+                    adipiscing elit. Aenean commodo ligula eget <br />
+                    dolor.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="benefits__image"
+            src="images/benefits__image.png"
+            alt="benefits__image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--
+   ####### #######    #    ####### #     # ######  #######  #####  
+   #       #         # #      #    #     # #     # #       #     # 
+   #       #        #   #     #    #     # #     # #       #       
+   #####   #####   #     #    #    #     # ######  #####    #####  
+   #       #       #######    #    #     # #   #   #             # 
+   #       #       #     #    #    #     # #    #  #       #     # 
+   #       ####### #     #    #     #####  #     # #######  #####  
+-->
+
+    <section class="features">
+      <div class="container">
+        <div class="features__wrapper">
+          <div class="features__main">
+            <div class="features__item">
+              <img
+                class="features__image"
+                src="images/features__image1.png"
+                alt="features__image1"
+              />
+              <div class="title__main">
+                <h3 class="features__title">Light, Fast & Powerful</h3>
+                <p class="features__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus <br /><br />
+                  mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                  quis, sem. Nulla consequat massa quis enim.
+                </p>
+              </div>
+            </div>
+            <div class="features__item">
+              <img
+                class="features__image"
+                src="images/features__image2.png"
+                alt="features__image2"
+              />
+              <div class="title__main">
+                <h3 class="features__title">Light, Fast & Powerful</h3>
+                <p class="features__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus <br /><br />
+                  mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                  quis, sem. Nulla consequat massa quis enim.
+                </p>
+              </div>
+            </div>
+            <div class="features__item">
+              <img
+                class="features__image"
+                src="images/features__image3.png"
+                alt="features__image3"
+              />
+              <div class="title__main">
+                <h3 class="features__title">Light, Fast & Powerful</h3>
+                <p class="features__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus <br /><br />
+                  mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                  quis, sem. Nulla consequat massa quis enim.
+                </p>
+                <button class="button button--dark features__button">
+                  button
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+    ######  ######  ###  #####  ### #     #  #####  
+    #     # #     #  #  #     #  #  ##    # #     # 
+    #     # #     #  #  #        #  # #   # #       
+    ######  ######   #  #        #  #  #  # #  #### 
+    #       #   #    #  #        #  #   # # #     # 
+    #       #    #   #  #     #  #  #    ## #     # 
+    #       #     # ###  #####  ### #     #  #####  
+     -->
+    <div class="vue__wrapper">
+      <!-- Vue works only inside this div -->
+      <section class="pricing">
+        <div class="container">
+          <div class="pricing__wrapper">
+            <div class="pricing__main">
+              <h3 class="pricing__title">A Price To Suit Everyone</h3>
+              <p class="pricing__text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean <br />
+                massa. Cum sociis natoque penatibus et magnis dis parturient
+                montes, nascetur ridiculus
+              </p>
+              <ul class="pricing__title_group">
+                <li class="pricing__item" v-for="product in products">
+                  <h3 class="pricing__introduction">{{ product.price }} тг</h3>
+                  <h4 class="pricing__body">{{ product.name }}</h4>
+                  <p class="pricing__paragraph">
+                    {{ product.desc }}
+                  </p>
+                  <button
+                    @click="putInBasket(product)"
+                    class="button button--dark pricing__button"
+                  >
+                    Purchase Now
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+      ####### ####### ####### ####### ####### ######  
+      #       #     # #     #    #    #       #     # 
+      #       #     # #     #    #    #       #     # 
+      #####   #     # #     #    #    #####   ######  
+      #       #     # #     #    #    #       #   #   
+      #       #     # #     #    #    #       #    #  
+      #       ####### #######    #    ####### #     #
+       -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__main">
+              <p class="footer__title">©2019 UIX</p>
+              <div class="nav__logo">Landie</div>
+              <button class="button button--dark footer__button">
+                Contact us
+              </button>
+            </div>
+            <div class="footer__rect"></div>
+            <div class="footer__end">
+              <ul class="nav__menu">
+                <li class="nav__menu-item">
+                  <a class="nav__link" href="#">Home</a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__link" href="#">About</a>
+                </li>
+                <li class="nav__menu-item">
+                  <a class="nav__link" href="#">Contact</a>
+                </li>
+              </ul>
+              <div class="footer__socialmedia">
+                <img
+                  class="footer__social"
+                  src="images/social1.png"
+                  alt="facebook"
+                />
+                <img class="footer__social" src="images/social2.png" alt="in" />
+                <img
+                  class="footer__social"
+                  src="images/social3.png"
+                  alt="twitter"
+                />
+                <img
+                  class="footer__social"
+                  src="images/social4.png"
+                  alt="youtube"
+                />
+                <img
+                  class="footer__social"
+                  src="images/social5.png"
+                  alt="instagram"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- 
+        #     # ####### ######     #    #       
+        ##   ## #     # #     #   # #   #       
+        # # # # #     # #     #  #   #  #       
+        #  #  # #     # #     # #     # #       
+        #     # #     # #     # ####### #       
+        #     # #     # #     # #     # #       
+        #     # ####### ######  #     # #######
+       -->
+      <div
+        class="modal__background"
+        v-show="basketVisible"
+        @click="closeBasket($event)"
+      >
+        <div class="modal__body">
+          <ul>
+            <li v-for="product in basket">
+              {{ product.name }}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 
+      ######     #     #####  #    # ####### ####### 
+      #     #   # #   #     # #   #  #          #    
+      #     #  #   #  #       #  #   #          #    
+      ######  #     #  #####  ###    #####      #    
+      #     # #######       # #  #   #          #    
+      #     # #     # #     # #   #  #          #    
+      ######  #     #  #####  #    # #######    #   
+       -->
+      <div class="basket" @click="openBasket()">
+        {{ basket.length }}
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

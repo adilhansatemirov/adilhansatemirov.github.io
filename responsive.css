@@ -1,0 +1,25 @@
+@media (max-width: 1200px) {
+  .nav__menu,
+  .nav__button {
+    display: none;
+  }
+
+  .nav__hamburger-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 750px) {
+  .header__wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .header__main {
+    width: auto;
+  }
+
+  .header__image {
+    width: auto;
+  }
+}
